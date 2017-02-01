@@ -1,0 +1,108 @@
+@import url(//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css);
+@import url(//fonts.googleapis.com/css?family=Roboto:300,400,500,600,700,700italic,400italic);
+@import url(angular-material.css);
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    font-family: Roboto, Helvetica Neue, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: .010em;
+    line-height: 1.6em;
+    background-color: black;
+    -webkit-font-smoothing: antialiased;
+    color: rgba(255, 255, 255, .87);
+}
+
+body {
+    background-image: url('images/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.logo {
+    margin-bottom: 10px;
+    padding: 20px;
+    max-width: 320px;
+}
+
+.content {
+    background-color: white;
+    padding: 10px;
+    opacity: .9;
+}
+
+.text {
+    text-align: center;
+    background-color: white;
+    color: #65489D;
+}
+
+.text p {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-size: 18px;
+    text-align: left;
+}
+
+.text a {
+    color: inherit;
+    font-size: 12px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.text a:hover {
+    opacity: .5;
+}
+
+.social a {
+    background-color: inherit;
+    color: #65489D;
+    text-decoration: none;
+    display: block;
+    font-size: 32px;
+    text-align: center;
+    line-height: 50px;
+    width: 60px;
+    border-left: 1px solid;
+    padding-left: 8px;
+}
+
+.social a i {
+    margin-top: 5px;
+}
+
+.social a:hover {
+    opacity: .5;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+@media (max-width:599px) {
+    .social a {
+        width: 100%;
+        border-left: none;
+        border-top: 1px solid;
+        text-align: center;
+        padding-left: 0px;
+        padding-top: 5px;
+    }
+    .text {
+        margin-bottom: 10px;
+    }
+    .text p,
+    .text a {
+        text-align: center;
+        width: 100%;
+    }
+}
